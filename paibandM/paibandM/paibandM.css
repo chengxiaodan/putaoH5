@@ -1,0 +1,433 @@
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+html,
+body,
+div,
+ul,
+li,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+section,
+article,
+nav,
+figure,
+figcaption {
+  display: block;
+}
+.w {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.h {
+  height: 100%;
+}
+.pr {
+  position: relative;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.fw {
+  width: 100%;
+}
+.font1 {
+  font-size: 0.90rem;
+}
+.font2 {
+  font-size: 0.28rem;
+}
+.font3 {
+  font-size: 0.20rem;
+}
+.pbcolor {
+  color: #61259e;
+}
+.paiband-container {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+  background: #ffffff;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.paiband-container div,
+.paiband-container li,
+.paiband-container span {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.paiband-container li {
+  list-style: none;
+}
+.paiband-container .paiband-title {
+  padding-top: 0.35rem;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.02rem;
+}
+.paiband-container .paiband-main {
+  width: 100%;
+  height: 8.8rem;
+  background: url(/paibandM/images/paiband.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-main .paiband-text {
+  width: 100%;
+  height: auto;
+  margin-top: 0.89rem;
+  margin-left: 0.55rem;
+}
+.paiband-container .paiband-main .paiband-text .font1 {
+  height: 0.90rem;
+  line-height: 0.90rem;
+  margin-bottom: 0.15rem;
+}
+.paiband-container .paiband-main .paiband-text .title {
+  height: 26px;
+  line-height: 26px;
+  color: #383838;
+  margin-bottom: 0.20rem;
+  letter-spacing: 0.17rem;
+}
+.paiband-container .paiband-main .paiband-text .safebtn span {
+  color: #ffffff;
+  background-color: #61259e;
+  border-radius: 0.20rem;
+  padding: 0.06rem 0.18rem;
+  letter-spacing: 0.02rem;
+}
+.paiband-container .pb-imgs {
+  width: 100%;
+  height: auto;
+}
+.paiband-container .paiband-safe .safe1 {
+  height: 8.8rem;
+  background: url(/paibandM/images/ring-a.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-ul {
+  height: auto;
+  width: auto;
+  margin-left: 0.4rem;
+  margin-top: 1.6rem;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-ul ul {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-ul ul:last-child {
+  margin-top: 1.05rem;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-ul ul li {
+  float: left;
+  width: auto;
+  margin-right: 0.5rem;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-ul ul li:last-child {
+  margin-right: 0px;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-article {
+  margin-top: 2.7rem;
+  margin-left: 2.8rem;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-article .title {
+  margin-bottom: 0.23rem;
+}
+.paiband-container .paiband-safe .safe1 .paiband-text .pb-article p {
+  line-height: 148%;
+}
+.paiband-container .paiband-safe .safe2 {
+  height: 8.8rem;
+  background: url(/paibandM/images/ring-b.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-safe .safe2 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+.paiband-container .paiband-safe .safe2 .paiband-text p {
+  line-height: 148%;
+}
+.paiband-container .paiband-safe .safe2 .paiband-text .pb-article {
+  color: #646464;
+  margin-top: 0.25rem;
+}
+.paiband-container .paiband-life .life1 {
+  height: 9.8rem;
+  background: url(/paibandM/images/data-a.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-life .life1 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: right;
+  padding-right: 0.15rem;
+  margin-top: 1rem;
+}
+.paiband-container .paiband-life .life1 .paiband-text p {
+  line-height: 148%;
+}
+.paiband-container .paiband-life .life1 .paiband-text .title1 figure figcaption {
+  vertical-align: text-bottom;
+  display: inline-block;
+  margin-left: 0.04rem;
+  margin-bottom: 0.03rem;
+}
+.paiband-container .paiband-life .life1 .paiband-text .title1 figure img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.paiband-container .paiband-life .life1 .paiband-text .title {
+  margin-top: 0.17rem;
+  color: #383838;
+}
+.paiband-container .paiband-life .life1 .paiband-text .pb-article {
+  color: #646464;
+  margin-top: 0.38rem;
+}
+.paiband-container .paiband-life .life1 .paiband-text .tip {
+  margin-top: 1rem;
+  padding-left: 0.65rem;
+  color: #646464;
+  text-align: left;
+}
+.paiband-container .paiband-life .life2 {
+  height: 8.8rem;
+  background: url(/paibandM/images/data-b.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-life .life2 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding-left: 0.15rem;
+  margin-top: 1.65rem;
+}
+.paiband-container .paiband-life .life2 .paiband-text p {
+  line-height: 148%;
+}
+.paiband-container .paiband-life .life2 .paiband-text .title1 figure figcaption {
+  vertical-align: text-bottom;
+  display: inline-block;
+  margin-left: 0.04rem;
+  margin-bottom: 0.03rem;
+}
+.paiband-container .paiband-life .life2 .paiband-text .title1 figure img {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.paiband-container .paiband-life .life2 .paiband-text .title {
+  margin-top: 0.17rem;
+  color: #383838;
+}
+.paiband-container .paiband-life .life2 .paiband-text .pb-article {
+  color: #646464;
+  margin-top: 0.38rem;
+}
+.paiband-container .paiband-life .life2 .paiband-text .tip {
+  margin-top: 0.9rem;
+  padding-right: .88rem;
+  color: #646464;
+  text-align: right;
+}
+.paiband-container .paiband-life .life3 {
+  height: 8.8rem;
+  background: url(/paibandM/images/data-c.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-life .life3 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 0.47rem;
+}
+.paiband-container .paiband-life .life3 .paiband-text .title1 {
+  margin-bottom: 0.38rem;
+}
+.paiband-container .paiband-life .life3 .paiband-text .title1 p {
+  line-height: 120%;
+}
+.paiband-container .paiband-life .life3 .paiband-text .pb-article p {
+  line-height: 148%;
+  color: #646464;
+}
+.paiband-container .paiband-parents .parent1 {
+  height: 15rem;
+  background: url(/paibandM/images/age-a.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-parents .parent1 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 1.07rem;
+}
+.paiband-container .paiband-parents .parent1 .paiband-text p {
+  line-height: 148%;
+  display: inline-block;
+}
+.paiband-container .paiband-parents .parent1 .paiband-text .title1 {
+  margin-bottom: 0.38rem;
+}
+.paiband-container .paiband-parents .parent1 .paiband-text .pb-article {
+  color: #646464;
+}
+.paiband-container .paiband-parents .parent1 .paiband-text .pb-article2 {
+  margin-top: 0.17rem;
+}
+.paiband-container .paiband-parents .parent2 {
+  height: 8.8rem;
+  background: url(/paibandM/images/age-b.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-parents .parent2 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 0.47rem;
+}
+.paiband-container .paiband-parents .parent2 .paiband-text .title1 {
+  margin-bottom: 0.38rem;
+}
+.paiband-container .paiband-parents .parent2 .paiband-text .title1 p {
+  line-height: 120%;
+}
+.paiband-container .paiband-parents .parent2 .paiband-text .pb-article {
+  color: #646464;
+}
+.paiband-container .paiband-parents .parent2 .paiband-text .pb-article p {
+  line-height: 148%;
+}
+.paiband-container .paiband-parents .parent3 {
+  height: 8.80rem;
+  background: url(/paibandM/images/age-c.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-parents .parent3 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  margin-top: 1.65rem;
+  margin-left: 0.15rem;
+}
+.paiband-container .paiband-parents .parent3 .paiband-text .title {
+  margin-bottom: 0.38rem;
+}
+.paiband-container .paiband-parents .parent3 .paiband-text .title p {
+  line-height: 120%;
+}
+.paiband-container .paiband-parents .parent3 .paiband-text .pb-article {
+  color: #646464;
+}
+.paiband-container .paiband-parents .parent3 .paiband-text .pb-article p {
+  line-height: 148%;
+}
+.paiband-container .paiband-parents .parent4 {
+  height: 8.80rem;
+  background: url(/paibandM/images/age-d.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-parents .parent4 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  margin-top: 1.65rem;
+  margin-left: 0.15rem;
+}
+.paiband-container .paiband-parents .parent4 .paiband-text p {
+  line-height: 148%;
+  display: inline-block;
+}
+.paiband-container .paiband-parents .parent4 .paiband-text .title {
+  margin-bottom: 0.38rem;
+}
+.paiband-container .paiband-parents .parent4 .paiband-text .pb-article {
+  color: #646464;
+}
+.paiband-container .paiband-end .end1 {
+  height: 8.80rem;
+  background: url(/paibandM/images/end-a.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
+.paiband-container .paiband-end .end1 .paiband-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #646464;
+}
+.paiband-container .paiband-end .end1 .paiband-text ul {
+  float: left;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt {
+  width: 30.2%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt li {
+  width: 100%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt li:first-child {
+  display: block;
+  padding-top: 1.3rem;
+  height: 2.15rem;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt li:nth-child(2) {
+  padding-top: 1.29rem;
+  height: 2.27rem;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt li:nth-child(3) {
+  padding-top: 1.29rem;
+  height: 2.2rem;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt li:last-child {
+  padding-top: 1.27rem;
+  height: 1.86rem;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt:last-child {
+  width: 32.3%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt:last-child li {
+  width: 100%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt2 {
+  width: 37.5%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt2 li {
+  padding-top: 6.20rem;
+  width: 100%;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt2 li:first-child {
+  display: block;
+  padding-top: 1.3rem;
+  height: 2.15rem;
+}
+.paiband-container .paiband-end .end1 .paiband-text .topAndbt2 li:last-child {
+  height: 1.86rem;
+  padding-top: 5.73rem;
+}
+.paiband-container .paiband-end .end2 {
+  height: 14.3rem;
+  background: url(/paibandM/images/end-b.jpg) no-repeat center center;
+  background-size: 100% 100%;
+}
